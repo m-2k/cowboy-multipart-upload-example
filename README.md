@@ -14,6 +14,7 @@ Run
 * rebar get-deps
 * rebar compile
 * erl -pa ebin deps/*/ebin -s hello_world
+* (optional, in erl console) sync:go().
 
 Develop
 ---------------------
