@@ -22,19 +22,6 @@ start(_Type, _Args) ->
         [{env, [{dispatch, Dispatch}]}
     ]),
     hello_world_sup:start_link().
-    
-% start(_Type, _Args) ->
-%     Dispatch = [
-%         {'_', [
-%             {[<<"upload">>, '...'], upload_handler, []},
-%             {'_', toppage_handler, []}
-%             ]}
-%     ],
-%     cowboy:start_listener(my_http_listener, 1,
-%         cowboy_tcp_transport, [{port, 8080}],
-%         cowboy_http_protocol, [{dispatch, Dispatch}]
-%     ),
-%     hello_world_sup:start_link().
 
 stop(_State) ->
 	ok.
