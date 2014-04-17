@@ -14,6 +14,7 @@ Run
 * rebar get-deps
 * rebar compile
 * erl -pa ebin deps/*/ebin -s hello_world
+* open URL: http://127.0.0.1/
 * (optional, in erl console) sync:go().
 
 Develop
