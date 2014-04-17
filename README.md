@@ -1,4 +1,1 @@
-Cowboy-Multipart-Upload-Example
-===============================
-
-Example for POST file downloading
+erl -pa ebin deps/*/ebin -s hello_world
